@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:layout_alignRight="@+id/delete"
+              android:id="@+id/movie_title"
+    />
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:id="@+id/movie_actors"
+              android:layout_alignBottom="@+id/movie_title"
+              android:layout_alignRight="@+id/delete"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/delete"
+            android:text="delete"
+    />
+</LinearLayout>
